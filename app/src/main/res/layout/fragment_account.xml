@@ -1,0 +1,97 @@
+<?xml version="1.0" encoding="utf-8"?>
+
+
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:gravity="center"
+    android:orientation="vertical"
+    tools:context=".fragments.AccountFragment">
+
+    <android.support.v7.widget.CardView
+        android:layout_width="140dp"
+        android:layout_height="140dp"
+        app:cardBackgroundColor="@color/colorPrimary"
+        app:cardCornerRadius="70dp">
+
+        <android.support.v7.widget.CardView
+            android:layout_width="130dp"
+            android:layout_height="130dp"
+            android:layout_centerHorizontal="true"
+            android:layout_gravity="center"
+            android:elevation="12dp"
+            android:innerRadius="0dp"
+            android:shape="ring"
+            android:thicknessRatio="1.9"
+            app:cardCornerRadius="65dp">
+
+            <ImageView
+                android:id="@+id/user_photo_image"
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:layout_alignParentTop="true"
+                android:layout_centerHorizontal="true"
+                android:scaleType="centerCrop" />
+        </android.support.v7.widget.CardView>
+    </android.support.v7.widget.CardView>
+
+    <TextView
+        android:id="@+id/user_name_text"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_margin="20dp"
+        android:text="@string/not_found"
+        android:textAlignment="center"
+        android:textSize="18sp" />
+
+    <TableLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content">
+
+        <TableRow
+            android:layout_marginHorizontal="30dp"
+            android:layout_marginVertical="10dp">
+
+            <TextView
+                android:layout_weight="1"
+                android:text="@string/email_label"
+                android:textSize="14sp" />
+
+            <TextView
+                android:id="@+id/user_email_text"
+                android:layout_weight="2"
+                android:text="@string/not_found"
+                android:textAlignment="viewEnd"
+                android:textSize="16sp" />
+        </TableRow>
+
+        <TableRow
+            android:layout_marginHorizontal="30dp"
+            android:layout_marginVertical="10dp">
+
+            <TextView
+                android:layout_weight="1"
+                android:text="@string/phone_label"
+                android:textSize="14sp" />
+
+            <TextView
+                android:id="@+id/user_phone_text"
+                android:layout_weight="2"
+                android:text="@string/not_found"
+                android:textAlignment="viewEnd"
+                android:textSize="16sp" />
+        </TableRow>
+    </TableLayout>
+
+    <Button
+        android:id="@+id/change_profile_button"
+        style="@style/Widget.AppCompat.Button.Colored"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_gravity="center"
+        android:text="@string/change_profile_button" />
+
+
+</LinearLayout>

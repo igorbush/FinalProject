@@ -1,0 +1,43 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:mask="http://schemas.android.com/apk/res-auto"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:layout_gravity="center"
+    android:layout_margin="20dp"
+    android:orientation="vertical">
+
+
+    <EditText
+        android:id="@+id/edit_task_title"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_margin="10dp"
+        android:autofillHints="@string/edit_task_title"
+        android:hint="@string/edit_task_title"
+        android:inputType="text" />
+
+    <br.com.sapereaude.maskedEditText.MaskedEditText
+        android:id="@+id/edit_task_date"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_margin="10dp"
+        android:hint="@string/dmy_mask"
+        android:inputType="date"
+        mask:allowed_chars="1234567890"
+        mask:char_representation="#"
+        mask:mask="##/##/####" />
+
+    <br.com.sapereaude.maskedEditText.MaskedEditText
+        android:id="@+id/edit_task_time"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_margin="10dp"
+        android:hint="@string/hm_mask"
+        android:inputType="time"
+        mask:allowed_chars="1234567890"
+        mask:char_representation="#"
+        mask:mask="##:##" />
+
+
+</LinearLayout>

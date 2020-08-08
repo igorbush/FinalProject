@@ -1,0 +1,52 @@
+<resources>
+    <string name="app_name">Your Tasks</string>
+    <string name="account_menu_button">Profile</string>
+    <string name="tasks_menu_button">Tasks</string>
+    <string name="audio_notes_menu_button">Audio Notes</string>
+    <string name="exit_menu_button">Exit</string>
+    <string name="app_bar_tasks">Your Tasks</string>
+    <string name="app_bar_audio_notes">Your Audio Notes</string>
+    <string name="app_bar_profile">Your Profile</string>
+    <string name="app_bar_exit">Exit</string>
+    <string name="reg_button">Register</string>
+    <string name="welcome_text">Welcome!</string>
+    <string name="reg_or_login_text">OR</string>
+    <string name="login_button">Login</string>
+    <string name="email_input_edit">Enter your email</string>
+    <string name="password_input_edit">Enter your password</string>
+    <string name="empty_entries">Oops! Password or Email is empty!</string>
+    <string name="error_register">Oops, I think you entered the wrong data!</string>
+    <string name="error_sign_in">Oops, there does not seem to be such a user!</string>
+    <string name="error_save_task">Oops! the data was not saved. something went wrong!</string>
+    <string name="error_recover_task">Oops! the data was not recovered. something went wrong!</string>
+    <string name="error_load_avatar">Oops, it seems your avatar did not load. try again!</string>
+    <string name="error_profile_update">Oops, an error occurred when updating the profile. Try again!</string>
+    <string name="saved_task">The task is saved</string>
+    <string name="delete_task">The task is deleted</string>
+    <string name="recover_task">The task is recovered</string>
+    <string name="error_delete_task">Oops! the task was not deleted. something went wrong!</string>
+    <string name="error_check_task">Oops! the task was not checked. something went wrong!</string>
+    <string name="not_found">Not found</string>
+    <string name="email_label">Email:</string>
+    <string name="phone_label">Phone:</string>
+    <string name="change_profile_button">Change Profile</string>
+    <string name="edit_task_title">Enter task title</string>
+    <string name="edit_task_date">Enter task date</string>
+    <string name="edit_task_time">Enter task time</string>
+    <string name="dmy_mask">DDMMYYYY</string>
+    <string name="hm_mask">HHMM</string>
+    <string name="add_dialog_button">ADD</string>
+    <string name="update_dialog_button">UPDATE</string>
+    <string name="cancel_dialog_button">CANCEL</string>
+    <string name="dialog_add_task">Add Task:</string>
+    <string name="dialog_edit_account">Edit Account:</string>
+    <string name="dialog_update_task">Update Task:</string>
+    <string name="edit_profile_phone">79991112233</string>
+    <string name="edit_profile_name">Enter Name</string>
+    <string name="profile_updated">Profile updated</string>
+    <!-- TODO: Remove or change this placeholder text -->
+    <string name="stop_recording">Stop Recording</string>
+    <string name="recording">Recording...</string>
+
+
+</resources>
